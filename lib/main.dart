@@ -14,10 +14,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primaryColor: const Color(0xff424B5E),
+        brightness: Brightness.dark,
+        primaryColor: const Color(0xFF1C2130),
+        canvasColor: Colors.blue,
         scaffoldBackgroundColor: const Color(0xFF323849),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Color(0xFF1C2130),
         ),
       ),
       initialRoute: '/',
