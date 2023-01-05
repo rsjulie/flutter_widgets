@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CupertinoActionSheetPage extends StatelessWidget {
-  const CupertinoActionSheetPage({Key? key}) : super(key: key);
+class DraggableScrollablePage extends StatelessWidget {
+  const DraggableScrollablePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('CupertinoActionSheet'),
+        title: const Text('DraggableScrollable'),
         centerTitle: true,
       ),
       body: Container(),

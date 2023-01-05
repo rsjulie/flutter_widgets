@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CupertinoActionSheetPage extends StatelessWidget {
-  const CupertinoActionSheetPage({Key? key}) : super(key: key);
+class CupertinoActivityIndicatorPage extends StatelessWidget {
+  const CupertinoActivityIndicatorPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('CupertinoActionSheet'),
+        title: const Text('CupertinoActivityIndicator'),
         centerTitle: true,
       ),
       body: Container(),

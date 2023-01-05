@@ -47,9 +47,34 @@ import 'package:flutter_widgets/app/modules/pages/C/colored_box.dart';
 import 'package:flutter_widgets/app/modules/pages/C/column.dart';
 import 'package:flutter_widgets/app/modules/pages/C/constrained_box.dart';
 import 'package:flutter_widgets/app/modules/pages/C/container.dart';
+import 'package:flutter_widgets/app/modules/pages/C/custom_paint.dart';
+import 'package:flutter_widgets/app/modules/pages/C/custom_scroll_view.dart';
 import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_action_sheet_action.dart';
+import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_activity_indicator.dart';
+import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_alert_dialog.dart';
 import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_app.dart';
+import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_button.dart';
+import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_context_menu.dart';
+import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_date_picker.dart';
+import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_page_route.dart';
 import 'package:flutter_widgets/app/modules/pages/Cupertino/cupertino_page_scaffold.dart';
+import 'package:flutter_widgets/app/modules/pages/D/data_cell.dart';
+import 'package:flutter_widgets/app/modules/pages/D/data_column.dart';
+import 'package:flutter_widgets/app/modules/pages/D/data_row.dart';
+import 'package:flutter_widgets/app/modules/pages/D/data_table.dart';
+import 'package:flutter_widgets/app/modules/pages/D/date_picker.dart';
+import 'package:flutter_widgets/app/modules/pages/D/date_range_picker.dart';
+import 'package:flutter_widgets/app/modules/pages/D/decorated_box.dart';
+import 'package:flutter_widgets/app/modules/pages/D/decorated_box_transition.dart';
+import 'package:flutter_widgets/app/modules/pages/D/default_text_style.dart';
+import 'package:flutter_widgets/app/modules/pages/D/dismissible.dart';
+import 'package:flutter_widgets/app/modules/pages/D/divider.dart';
+import 'package:flutter_widgets/app/modules/pages/D/drag_target.dart';
+import 'package:flutter_widgets/app/modules/pages/D/draggable.dart';
+import 'package:flutter_widgets/app/modules/pages/D/draggable_scrollable.dart';
+import 'package:flutter_widgets/app/modules/pages/D/drawer.dart';
+import 'package:flutter_widgets/app/modules/pages/D/drawer_header.dart';
+import 'package:flutter_widgets/app/modules/pages/D/dropdown_button.dart';
 
 var routes = {
   '/': (_) => const HomePage(),
@@ -76,6 +101,7 @@ var routes = {
   '/appbar': (_) => const AppBarPage(),
   '/aspect-ratio': (_) => const AspectRatioPage(),
   '/auto-complete': (_) => const AutoCompletePage(),
+  //
   '/backdrop-filter': (_) => const BackdropFilterPage(),
   '/banner': (_) => const BannerPage(),
   '/baseline': (_) => const BaselinePage(),
@@ -83,6 +109,7 @@ var routes = {
   '/bottom-navigation-bar': (_) => const BottomNavigationBarPage(),
   '/bottom-sheet': (_) => BottomSheetPage(),
   '/builder': (_) => const BuilderPage(),
+  //
   '/card': (_) => const CardPage(),
   '/center': (_) => const CenterPage(),
   '/checkbox': (_) => const CheckboxPage(),
@@ -101,10 +128,37 @@ var routes = {
   '/constrained-box': (_) => const ConstrainedBoxPage(),
   '/container': (_) => const ContainerPage(),
   '/column': (_) => const ColumnPage(),
+  //
   '/cupertino-app': (_) => const CupertinoAppPage(),
   '/cupertino-page-scaffold': (_) => const CupertinoPageScaffoldPage(),
   '/cupertino-action-sheet': (_) => const CupertinoActionSheetPage(),
+  '/cupertino_activity_indicator': (_) => const CupertinoActivityIndicatorPage(),
+  '/cupertino_alert_dialog': (_) => const CupertinoAlertDialogPage(),
+  '/cupertino-button': (_) => const CupertinoButtonPage(),
+  '/cupertino-context-menu': (_) => const CupertinoContextMenuPage(),
+  '/cupertino-date-picker': (_) => const CupertinoDatePickerPage(),
+  '/cupertino-page-route': (_) => const CupertinoPageRoutePage(),
+  '/cupertino-activity-indicator': (_) => const CupertinoActivityIndicatorPage(),
+  //
+  '/custom-paint': (_) => const CustomPaintPage(),
+  '/custom-scroll-view': (_) => const CustomScrollViewPage(),
+  //
+  '/data-table': (_) => const DataTablePage(),
+  '/data-column': (_) => const DataColumnPage(),
+  '/data-row': (_) => const DataRowPage(),
+  '/data-cell': (_) => const DataCellPage(),
+  '/date-picker': (_) => const DatePickerPage(),
+  '/date-range-picker': (_) => const DateRangePickerPage(),
+  '/decorated-box': (_) => const DecoratedBoxPage(),
+  '/decorated-box-transition': (_) => const DecoratedBoxTransitionPage(),
+  '/default-text-style': (_) => const DefaultTextStylePage(),
+  '/dismissible': (_) => const DismissiblePage(),
+  '/divider': (_) => const DividerPage(),
+  '/draggable-scrollable': (_) => const DraggableScrollablePage(),
+  '/drag-target': (_) => const DragTargetPage(),
+  '/draggable': (_) => const DraggablePage(),
+  '/drawer': (_) => const DrawerPage(),
+  '/drawer-header': (_) => const DrawerHeaderPage(),
+  '/dropdown-button': (_) => const DropdownButtonPage(),
+  // '/cupertino': (_) => const CupertinoActivityIndicatorPage(),
 };
-
-// '/cupertino-app': (_) => BackdropFilterPage(),
-  // '/cupertino-page-scaffold': (_) => BackdropFilterPage(),
